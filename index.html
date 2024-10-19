@@ -35,4 +35,38 @@
         <h4>TUDO SOBRE A INFLUÊNCIA DAS REDES!</h4>
         <img id="imagem_banner" href="img/aaa">
     </section>
+    <section class="noticias">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/muie_placeholder"></div>
+                <div class="swiper-slide"><img src="img/muie_placeholder" alt="Noticia engraçada"></div>
+                <div class="swiper-slide"><img src="img/muie_placeholder" alt="Slide 3"></div>
+            </div>
+            <!-- Botões de navegação -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- Paginação -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <script src="node_modules/swiper/swiper-bundle.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var swiper = new Swiper('.swiper', {
+                    loop: true,
+                    autoplay: {
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                });
+            });
+        </script>
+    </section>
 </body>
