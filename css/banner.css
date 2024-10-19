@@ -12,3 +12,11 @@ ul{
 li{
   font-size: 40px;
 }
+#imagem_banner{
+position: absolute;
+width: 986px;
+height: 1200px;
+left: 991px;
+top: 156px;
+background: url(image-removebg-preview.png);
+}

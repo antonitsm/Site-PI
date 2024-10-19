@@ -1,6 +1,9 @@
 body {
   font-family: 'JetBrains Mono', monospace;
   padding: -1;
+  width: 1920px;
+  height: 6925px;
+  background: #FFFFFF;
 }
 section{
   margin-top: -5;
