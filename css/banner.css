@@ -3,13 +3,37 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(115,153,203,1) 59
 height: 120vh; width: 100vw; color: white; font-size: 200px;
 text-shadow: 0.1em 0.1em 0.2em black;
 }
-ul{
-  display: flex;
-  flex-direction: row;
-  gap: 9%;
+header {
+  width: 100%;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
-li{
-  font-size: 40px;
+header .container {
+  width: 100%; 
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+header .logo {
+  max-width: 10%;
+}
+header nav {
+  display: flex; 
+  gap: 20px;
+}
+
+header a {
+  color: #fff; /* Cor do texto do link */
+  text-decoration: none; /* Remove o sublinhado */
+  font-weight: bold; /* Negrito para os links */
+  transition: color 0.3s; /* Efeito de transição suave na cor */
+}
+header a:hover {
+  text-decoration: white;
 }
 #imagem_banner{
 position: absolute;

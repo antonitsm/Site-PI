@@ -5,13 +5,19 @@ body {
   height: 6925px;
   background: #FFFFFF;
 }
-section{
+
+section {
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  padding: 10%;
+  padding-top: 0%;
+  padding-bottom: 0%;
   margin-top: -5;
   margin-bottom: 0;
   margin-left: -20px;
   margin-right: -20px;
-  padding: 10%;
 }
-.caixa{
-  background-color: rgb(115,153,203,0.8);
+.caixa {
+  background-color: rgb(115, 153, 203, 0.8);
 }
