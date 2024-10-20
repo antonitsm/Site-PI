@@ -3,7 +3,7 @@ body {
   padding: -1;
   width: 100vh;
   height: 350vh;
-  background: #FFFFFF;
+  background: black ;
 }
 header {
   width: 100vh;
@@ -20,8 +20,8 @@ header .container {
   justify-content: space-between; 
   align-items: center; 
 }
-header .logo {
-  max-width: 10%;
+.logo img{
+  size: 10%;
 }
 header nav {
   display: flex; 
@@ -29,10 +29,10 @@ header nav {
 }
 
 header a {
-  color: #fff; /* Cor do texto do link */
-  text-decoration: none; /* Remove o sublinhado */
-  font-weight: bold; /* Negrito para os links */
-  transition: color 0.3s; /* Efeito de transição suave na cor */
+  color: #fff;
+  text-decoration: none; 
+  font-weight: bold; 
+  transition: color 0.3s;
 }
 header a:hover {
   text-decoration: white;
@@ -44,11 +44,20 @@ section {
   padding: 10%;
   padding-top: 0%;
   padding-bottom: 0%;
-  margin-top: -5;
   margin-bottom: 0;
   margin-left: -20px;
   margin-right: -20px;
 }
 .caixazul{
   background-color: rgb(115, 153, 203, 0.8);
+}
+.texto {
+  width: 64%;
+}
+.imagem{
+  width: 15%;
+}
+div {
+  height: 20vh;
+  width: 80%;
 }
