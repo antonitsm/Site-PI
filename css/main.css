@@ -5,7 +5,46 @@ body {
   height: 6925px;
   background: #FFFFFF;
 }
+header {
+  width: 100%;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+header .container {
+  width: 100%; 
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+header .logo {
+  max-width: 10%;
+}
+header nav {
+  display: flex; 
+  gap: 20px;
+}
 
+header a {
+  color: #fff; /* Cor do texto do link */
+  text-decoration: none; /* Remove o sublinhado */
+  font-weight: bold; /* Negrito para os links */
+  transition: color 0.3s; /* Efeito de transição suave na cor */
+}
+header a:hover {
+  text-decoration: white;
+}
+#imagem_banner{
+position: absolute;
+width: 986px;
+height: 1200px;
+left: 991px;
+top: 156px;
+background: url(image-removebg-preview.png);
+}
 section {
   flex-direction: row;
   align-content: center;
