@@ -1,0 +1,6 @@
+#marketing {
+background: linear-gradient(90deg, rgba(133, 166, 209, 0.62) 0%, rgb(255, 255, 255) 100%);
+mix-blend-mode: normal;
+transform: matrix(0, -1, -1, 0, 0, 0);
+height: 350vh; width: 100vw; color: white;
+}
