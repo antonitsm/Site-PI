@@ -3,6 +3,9 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(115,153,203,1) 59
 height: 100vh; width: 100vw; color: white;
 text-shadow: 0.1em 0.1em 0.2em black;
 }
+.logo img{
+    size: 5%;
+}
 #imagem_banner{
 position: relative;
 width: 51%;
