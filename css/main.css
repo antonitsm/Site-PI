@@ -1,12 +1,12 @@
 body {
   font-family: 'JetBrains Mono', monospace;
   padding: -1;
-  width: 1920px;
-  height: 6925px;
+  width: 100vh;
+  height: 350vh;
   background: #FFFFFF;
 }
 header {
-  width: 100%;
+  width: 100vh;
   padding: 20px 0;
   position: sticky;
   top: 0;
