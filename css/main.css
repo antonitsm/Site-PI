@@ -37,14 +37,6 @@ header a {
 header a:hover {
   text-decoration: white;
 }
-#imagem_banner{
-position: absolute;
-width: 986px;
-height: 1200px;
-left: 991px;
-top: 156px;
-background: url(image-removebg-preview.png);
-}
 section {
   flex-direction: row;
   align-content: center;
