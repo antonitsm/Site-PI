@@ -1,28 +1,30 @@
 body {
-  font-family: 'JetBrains Mono', monospace;
-  width: 100vw;
-  height: 350vh;
-  background: rgb(136, 74, 74) ;
-  text-align: center;
+  font-family: 'JetBrains Mono', monospace;/*nossa fonte*/
+  width: 100vw;/*largura da tela*/
+  height: 900vh;/*9 telas de comprimento*/
+  background: rgb(136, 74, 74) ;/*vermelho para melhor visualização(temporario)*/
+  text-align: center;/*texto no meio como base(muda ai sla)*/
 }
 header {
-  width: 100vw; /* Ocupa a largura total da tela */
-  padding: 20px 0;
-  max-height: 20%;
-  position: sticky;
+  width: 100vw; /*comprimento da tela*/
+  padding: 20px 0;/*espaçamento interno*/
+  max-height: 20%;/*tamanho maximo*/
+  position: sticky;/*gruda no topo da pagina(não vai ate o final n sei pq*/
   top: 0;
   left: 0;
   z-index: 1000;
   margin: 0;
+  /*topo de tudo sem espaçamentos externos*/
 }
 header .container {
   width: 100%; 
   max-width: 1200px;
   margin: 0 auto;
   display: flex; 
-  justify-content: space-between; 
+  justify-content: space-between; /*espaçamento do header*/
   align-items: center; 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+/*efeito de sombra*/
 }
 header nav {
   display: flex; 
@@ -33,25 +35,26 @@ header a {
   color: #fff;
   text-decoration: none; 
   font-weight: 400; 
-  font-size: x-large;
+  font-size: x-large;/*formatações da fonte no cabeçalho(favor não mexer)*/
   transition: color 0.3s;
 }
 header a:hover {
   text-decoration: white;
 } 
 .caixazul{
-  background-color: rgb(115, 153, 203, 0.8);
+  background-color: rgb(115, 153, 203, 0.8);/*divs azuis do site(influencers/introdução)*/
 }
 footer{
   display: flex; 
-  justify-content: space-between; 
+  justify-content: space-between; /*espaçamante footer*/
   align-items: center; 
   
 }
 footer a {
   color: #fff;
   text-decoration: none; 
-  font-weight: bold; 
+  font-weight: 400; 
+  font-size: x-large;/*formatações da fonte no footer(favor não mexer)*/
   transition: color 0.3s;
 }
 footer a:hover {
