@@ -1,0 +1,23 @@
+#influencers .botao-azul-basico {
+    width: 80%;
+}
+#influencers .info-card {
+    width: 80%;
+}
+
+#influencers .botao-azul-basico {
+    display: flex;
+    align-items: center;
+}
+
+#influencers .botao-azul-basico-img {
+    width: 30%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+#influencers .botao-azul-basico span {
+    flex-grow: 1;
+    text-align: center;
+}

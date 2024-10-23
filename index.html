@@ -13,11 +13,10 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/banner.css" rel="stylesheet">
     <link href="css/dicas.css" rel="stylesheet">
-    <link href="css/influencers.css" rel="stylesheet">
     <link href="css/introducao.css" rel="stylesheet">
+    <link href="css/influencers.css" rel="stylesheet">
     <link href="css/marketing.css" rel="stylesheet">
     <link href="css/noticias.css" rel="stylesheet">
-    <script href="js/main.js"></script>
 </head>
 <body>
     <header>
@@ -42,32 +41,61 @@
     </section>  
     <section id="introducao">
         <h4>INTRODUÇÃO</h4>
-        <div class="caixazul"><p>batatinha frita 123</p></div>
-        <div class="caixazul"><p>batatinha frita 123</p></div>
-        <div class="caixazul"><p>batatinha frita 123</p></div>
+        
+        <div class="botao-azul-basico" onclick="showCard('marketingCard')">Marketing</div>
+        <div id="marketingCard" class="info-card">
+            <p>O marketing digital envolve estratégias de comunicação que utilizam plataformas online para promover marcas, produtos e serviços.</p>
+        </div>
+        
+        <div class="botao-azul-basico" onclick="showCard('influencersCard')">Influencers</div>
+        <div id="influencersCard" class="info-card">
+            <p>Influencers desempenham um papel fundamental ao conectar marcas com seu público-alvo através de conteúdo autêntico e envolvente.</p>
+        </div>
+        
+        <div class="botao-azul-basico" onclick="showCard('transparenciaCard')">Transparência</div>
+        <div id="transparenciaCard" class="info-card">
+            <p>A transparência nas campanhas de marketing é essencial para manter a confiança do público e evitar práticas enganosas.</p>
+        </div>
     </section>
-    <section id="marketing"></section>
-    <h4>MARKETING</h4>
-    <div>
-        <div class="imagem"><img alt="alguma coisa sla"></div><div class="texto"><p>batatinha frita 123</p></div>
-    </div>
-    <div>
-        <div class="texto"><p>batatinha frita 123</p></div><div class="imagem"></div>
-    </div>
-    <div>
-        <div class="imagem"></div><div class="texto"><p>batatinha frita 123</p></div>
-    </div>
-    <section id="influencers"></section>
-    <h4>INFLUENCERS</h4>
-    <div class="caixazul"><p>batatinha frita 123</p></div>
-    <div class="caixazul"><p>batatinha frita 123</p></div>
-    <section id="dicas"></section>
-    <h4>DICAS</h4>
-    <ul>
-        <li><p>batatinha frita 123</p></li>
-        <li><p>batatinha frita 123</p></li>
-        <li><p>batatinha frita 123</p></li>
-    </ul>
+    <section id="marketing">
+        <h4>MARKETING</h4>
+        <div>
+            <div class="imagem"><img alt="alguma coisa sla"></div><div class="texto"><p>batatinha frita 123</p></div>
+        </div>
+        <div>
+            <div class="texto"><p>batatinha frita 123</p></div><div class="imagem"></div>
+        </div>
+        <div>
+            <div class="imagem"></div><div class="texto"><p>batatinha frita 123</p></div>
+        </div>
+    </section>
+    <section id="influencers">
+        <h4>INFLUENCERS</h4>
+    
+        <div class="botao-azul-basico" onclick="showCard('fitnessCard')">
+            <img src="fitness.jpg" alt="Fitness" class="botao-azul-basico-img">
+            <span>Influencers Fitness</span>
+        </div>
+        <div id="fitnessCard" class="info-card">
+            <p>Influencers de fitness compartilham conteúdo relacionado a exercícios, saúde e estilo de vida ativo, promovendo produtos e serviços que incentivam o bem-estar físico.</p>
+        </div>
+    
+        <div class="botao-azul-basico" onclick="showCard('compraCard')">
+            <img src="shopping.jpg" alt="Shopping" class="botao-azul-basico-img">
+            <span>Influencers de Compra</span>
+        </div>
+        <div id="compraCard" class="info-card">
+            <p>Influencers de compra são conhecidos por recomendar produtos e serviços, ajudando seus seguidores a tomar decisões de consumo através de análises, promoções e dicas.</p>
+        </div>
+    </section>
+    <section id="dicas">
+        <h4>DICAS</h4>
+        <ul>
+            <li><p>batatinha frita 123</p></li>
+            <li><p>batatinha frita 123</p></li>
+            <li><p>batatinha frita 123</p></li>
+        </ul>
+    </section>
     <section id="noticias">
         <h4>NOTÍCIAS</h4>
         <div class="swiper">
@@ -100,5 +128,6 @@
         </nav>
         <img alt="nossa logo">
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
