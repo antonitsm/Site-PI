@@ -2,10 +2,10 @@
     background: linear-gradient(0deg, rgba(133, 166, 209, 0.62) 0%, rgb(255, 255, 255) 100%); /* Gradiente vertical */
     mix-blend-mode: normal;
     height: 350dvh; 
-    width: 100vw; 
+    width: 100vw; /* Corrigido para 100vw */
     color: white; /* Cor do texto */
-    display: flex; /* Para centralizar o texto, se necessário */
+    display: flex; /* Para centralizar o texto */
     align-items: center; /* Alinha verticalmente */
     justify-content: center; /* Alinha horizontalmente */
-    transform: rotate(0deg); /* Sem rotação do texto */
+    transform: none; /* Garante que não haja rotação */
 }
