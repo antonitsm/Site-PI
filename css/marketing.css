@@ -1,5 +1,5 @@
 #marketing {
-background: linear-gradient(90deg, rgba(133, 166, 209, 0.62) 0%, rgb(255, 255, 255) 100%);/*gradiente*/
+/*background: linear-gradient(90deg, rgba(133, 166, 209, 0.62) 0%, rgb(255, 255, 255) 100%);gradiente*/
 mix-blend-mode: normal;
 transform: matrix(0, -1, -1, 0, 0, 0);
 height: 350dvh; width: 100dvw; color: white;/*tamanho de 3,5 telas de comprimento por uma de largura*/
