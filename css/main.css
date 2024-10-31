@@ -1,12 +1,12 @@
 body {
   font-family: 'JetBrains Mono', monospace;/*nossa fonte*/
-  width: 100vw;/*largura da tela*/
-  height: 900vh;/*9 telas de comprimento*/
+  width: 100dvw;/*largura da tela*/
+  height: 900dvh;/*9 telas de comprimento*/
   background: rgb(136, 74, 74) ;/*vermelho para melhor visualização(temporario)*/
   text-align: center;/*texto no meio como base(muda ai sla)*/
 }
 header {
-  width: 100vw; /*comprimento da tela*/
+  width: 100dvw; /*comprimento da tela*/
   padding: 20px 0;/*espaçamento interno*/
   max-height: 20%;/*tamanho maximo*/
   position: sticky;/*gruda no topo da pagina(não vai ate o final n sei pq*/
