@@ -1,6 +1,11 @@
 #marketing {
-/*background: linear-gradient(90deg, rgba(133, 166, 209, 0.62) 0%, rgb(255, 255, 255) 100%);gradiente*/
-mix-blend-mode: normal;
-transform: matrix(0, -1, -1, 0, 0, 0);
-height: 350dvh; width: 100dvw; color: white;/*tamanho de 3,5 telas de comprimento por uma de largura*/
+    background: linear-gradient(0deg, rgba(133, 166, 209, 0.62) 0%, rgb(255, 255, 255) 100%); /* Gradiente vertical */
+    mix-blend-mode: normal;
+    height: 350dvh; 
+    width: 100dvw; 
+    color: white; /* Cor do texto */
+    display: flex; /* Para centralizar o texto, se necessário */
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Alinha horizontalmente */
+    transform: rotate(0deg); /* Sem rotação do texto */
 }
