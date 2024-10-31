@@ -2,7 +2,7 @@
     background: linear-gradient(0deg, rgba(133, 166, 209, 0.62) 0%, rgb(255, 255, 255) 100%); /* Gradiente vertical */
     mix-blend-mode: normal;
     height: 350dvh; 
-    width: 100dvw; 
+    width: 100vw; 
     color: white; /* Cor do texto */
     display: flex; /* Para centralizar o texto, se necessário */
     align-items: center; /* Alinha verticalmente */
