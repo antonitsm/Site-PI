@@ -9,3 +9,36 @@
     justify-content: center; /* Alinha horizontalmente */
     transform: none; /* Garante que não haja rotação */
 }
+#marketing h4 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Arial", sans-serif;
+}
+
+.section-left, .section-right {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.titulomar1, .titulomar2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Ajuste para imagem da esquerda */
+.section-left {
+    flex-direction: row;
+    margin-left: 40px; /* Move a seção um pouco para a direita */
+}
+
+.section-left .imagem-left {
+    flex-shrink: 0;
+}
+
