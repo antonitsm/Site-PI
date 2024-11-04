@@ -42,3 +42,49 @@
     flex-shrink: 0;
 }
 
+.section-left .content-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-left .texto {
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* Ajuste para imagem da direita */
+.section-right {
+    flex-direction: row-reverse;
+    margin-right: 40px; /* Move a seção um pouco para a esquerda */
+}
+
+.section-right .imagem-right {
+    flex-shrink: 0;
+}
+
+.section-right .content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Alinha o título e o texto à direita */
+}
+
+.section-right .texto {
+    text-align: right;
+    margin-top: 10px;
+}
+
+/* Estilos para imagens */
+.imagem-left img, .imagem-right img {
+    width: 300px;
+    height: 250px;
+    border-radius: 20%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.texto {
+    max-width: 500px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
