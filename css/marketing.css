@@ -9,7 +9,7 @@
 }
 
 #marketing h4 {
-    font-size: 26px;
+    font-size: 50px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 40px;
@@ -43,6 +43,7 @@
 .section-left .texto {
     text-align: left; /* Alinha o texto à esquerda */
     margin-top: 10px;
+    fon
 }
 
 /* Ajuste para a seção à direita (segunda imagem) */
@@ -80,7 +81,7 @@
 /* Estilos gerais para o texto */
 .texto {
     max-width: 500px;
-    font-size: 16px;
+    font-size: 30px;
     line-height: 1.6;
     
 }
