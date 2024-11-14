@@ -71,8 +71,8 @@
 
 /* Estilos para imagens */
 .imagem-left img, .imagem-right img {
-    width: 500ren;
-    height: 450ren;
+    width: 500rem;
+    height: 450rem;
     border-radius: 20%;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
