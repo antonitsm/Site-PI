@@ -1,12 +1,11 @@
 body {
   font-family: 'JetBrains Mono', monospace;/*nossa fonte*/
-  width: 100vw;/*largura da tela*/
-  height: 900dvh;/*9 telas de comprimento*/
-  background: rgb(136, 74, 74) ;/*vermelho para melhor visualização(temporario)*/
+  background: rgb(255, 255, 255) ;/*vermelho para melhor visualização(temporario)*/
   text-align: center;/*texto no meio como base(muda ai sla)*/
+  padding: -15px;
 }
 header {
-  width: 100vw; /*comprimento da tela*/
+  width: 100%; /*comprimento da tela*/
   padding: 20px 0;/*espaçamento interno*/
   max-height: 20%;/*tamanho maximo*/
   position: sticky;/*gruda no topo da pagina(não vai ate o final n sei pq*/
@@ -14,7 +13,7 @@ header {
   left: 0;
   z-index: 1000;
   margin: 0;
-  /*topo de tudo sem espaçamentos externos*/
+  background-color: rgba(18,82,166,1) 100%;
 }
 header .container {
   width: 100%; 
@@ -24,7 +23,7 @@ header .container {
   justify-content: space-between; /*espaçamento do header*/
   align-items: center; 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-/*efeito de sombra*/
+  background-color: rgba(18,82,166,1) 100%;
 }
 header nav {
   display: flex; 
@@ -49,6 +48,11 @@ header a:hover {
   cursor: pointer;
   user-select: none;
 }
+section {
+  width: 100%;
+  margin: -22px;
+  padding-bottom: 20%;
+}
 
 .info-card {
   display: none;
@@ -63,7 +67,7 @@ header a:hover {
 
 footer{
   display: flex; 
-  justify-content: space-between; /*espaçamante footer*/
+  justify-content: space-between;
   align-items: center; 
   
 }
@@ -71,7 +75,7 @@ footer a {
   color: #fff;
   text-decoration: none; 
   font-weight: 400; 
-  font-size: x-large;/*formatações da fonte no footer(favor não mexer)*/
+  font-size: x-large;
   transition: color 0.3s;
 }
 footer a:hover {

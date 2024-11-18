@@ -1,3 +1,7 @@
+#influencers {
+    background: linear-gradient(90deg, rgba(133, 166, 209, 0.62) 100%, rgba(160, 186, 219, 0.483867) 0%);
+    mix-blend-mode: normal;
+}
 #influencers .botao-azul-basico {
     width: 80%;
 }
