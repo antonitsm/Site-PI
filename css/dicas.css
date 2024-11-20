@@ -1,27 +1,33 @@
-#dicas{
-    background: linear-gradient(0deg, rgba(255, 255, 255) 0%, rgba(133, 166, 209, 0.62) 100%);
-    color: white
+.dicas {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9) 0%, rgba(133, 166, 209, 0.62) 100%);
+    color: white;
+    padding: 20px;
 }
+
 .dicas-lista {
     list-style-type: none; /* Remove os pontos padrão da lista */
     padding: 0;
-  }
+}
 
-  .dicas-lista li {
+.dicas-lista li {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-  }
+}
 
-  .circledics {
-    width: 50px;
-    height: 50px;
+.circledics {
+    width: 30px;
+    height: 30px;
     background-color: #7399CB; /* Cor da bolinha */
     border-radius: 50%;
-    margin-right: 10px;
-    margin-left: 40px;
-  }
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    color: white;
+}
 
-  .dica-texto p {
-    margin: 0; /* Remove o espaço extra */
-  }
+.dica-texto {
+    margin: 0;
+}
