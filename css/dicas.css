@@ -1,34 +1,28 @@
-.dicas {
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9) 0%, rgba(133, 166, 209, 0.62) 100%);
-    color: white;
-   
+#dicas{
+    background: linear-gradient(0deg, rgba(255, 255, 255) 0%, rgba(133, 166, 209, 0.62) 100%);
+    color: white
 }
-
 .dicas-lista {
     list-style-type: none; /* Remove os pontos padrão da lista */
     padding: 0;
-}
+  }
 
-.dicas-lista li {
+  .dicas-lista li {
     display: flex;
-    align-items: flex-start; /* Alinha a bolinha com o topo do texto */
+    align-items: center;
     margin-bottom: 10px;
-}
+    align-items: flex-start; /* Alinha a bolinha com o topo do texto */
+  }
 
-.circledics {
+  .circledics {
     width: 50px;
     height: 50px;
     background-color: #7399CB; /* Cor da bolinha */
     border-radius: 50%;
-    margin-right: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2em;
-    flex-shrink: 0; /* Impede a bolinha de encolher */
-}
+    margin-right: 10px;
+    margin-left: 40px;
+  }
 
-.dica-texto p {
-    margin: 0;
-    line-height: 1.5; /* Ajuste do espaçamento entre linhas */
-}
+  .dica-texto p {
+    margin: 0; /* Remove o espaço extra */
+  }
