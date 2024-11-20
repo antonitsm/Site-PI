@@ -1,6 +1,6 @@
 body {
   font-family: 'JetBrains Mono', monospace;/*nossa fonte*/
-  background: rgb(255, 255, 255) ;/*vermelho para melhor visualização(temporario)*/
+  background: linear-gradient(0deg, #1252A6 0%, #FFFFFF 10%, #B5C9E3 45%, #B5C9E3 55%, #FFFFFF 90%, #1252A6 100%);
   text-align: center;/*texto no meio como base(muda ai sla)*/
   padding: -15px;
 }
@@ -65,19 +65,37 @@ section {
   margin: 10px auto 10px auto;
 }
 
-footer{
-  display: flex; 
-  justify-content: space-between;
-  align-items: center; 
-  
+footer {
+  margin-top: auto;
+  padding: 10px 0;
+  text-align: center;
 }
-footer a {
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+footer nav {
+  display: flex;
+  gap: 15px;
+  align-items: center;
   color: #fff;
+}
+
+footer nav a {
   text-decoration: none; 
   font-weight: 400; 
   font-size: x-large;
   transition: color 0.3s;
+  color: #fff;
 }
-footer a:hover {
-  text-decoration: white;
-} 
+
+footer .footer-image {
+  width: 100px;
+  height: 150px;
+  object-fit: contain;
+  margin: 0 50px;
+}
