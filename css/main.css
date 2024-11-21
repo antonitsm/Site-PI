@@ -10,7 +10,7 @@ body {
   margin: 0;
   color: black;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 200;
   font-size: 2rem;
 }
 header {
@@ -22,7 +22,6 @@ header {
   left: 0;
   z-index: 1000;
   margin: 0;
-  background-color: rgba(18,82,166,1) 100%;
 }
 header .container {
   width: 100%; 
