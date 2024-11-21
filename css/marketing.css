@@ -35,3 +35,6 @@
     justify-content: center;
     gap: 5px;
 }
+.txt_mark p {
+    align-items: center;
+}
