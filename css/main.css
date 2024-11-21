@@ -1,6 +1,6 @@
 body {
   font-family: 'JetBrains Mono', monospace;/*nossa fonte*/
-  background: linear-gradient(180deg, #1252A6 0%, #FFFFFF 10%, #B5C9E3 45%, #B5C9E3 55%,#FFFFFF 85%, rgba(115,153,203,1) 90%, #1252A6 100%);
+  background: linear-gradient(0deg, #1252A6 0%, #FFFFFF 10%, #B5C9E3 45%, #B5C9E3 55%,#FFFFFF 85%, rgba(115,153,203,1) 90%, #1252A6 100%);
   text-align: center;/*texto no meio como base(muda ai sla)*/
   margin: 0;
 }
