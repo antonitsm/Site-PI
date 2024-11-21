@@ -16,8 +16,6 @@ align-items: center;
     text-align: center;
 }
 #imagem_banner{
-height: 80%;
-left: 0%;
-top: 8%;/*posição da imagem banner(quebrado por enquanto)*/
+height: 80rem;
 margin-left: auto;
 }
