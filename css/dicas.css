@@ -6,7 +6,8 @@
 .dicas-lista {
   list-style-type: none; 
   padding: 0;
-  margin: 0;
+  margin-left: 3cm;
+  margin-right: 3cm;
 }
 
 .dicas-lista li {
