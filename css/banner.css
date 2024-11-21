@@ -18,6 +18,8 @@ align-items: center;
 }
 #imagem_banner{
     width: 39%;
+    padding: 0;
+    padding-right: -3%;
 }
 #imagem_banner >{
     object-fit: contain;
