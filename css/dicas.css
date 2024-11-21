@@ -1,35 +1,31 @@
+
+
 .dicas-lista {
-    list-style-type: none; /* Remove os pontos padrão da lista */
-    padding: 0;
-    margin: 0;
-    margin-left: 3cm; /* Margem de 5 cm à esquerda para todo o conteúdo */
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+  margin-left: 3cm;
+  margin-right: 3cm;
 }
 
 .dicas-lista li {
-    display: flex;
-    align-items: flex-start; /* Alinha a bolinha com o topo do texto */
-    margin-bottom: 20px; /* Espaçamento entre os itens */
-    gap: 20px; /* Espaçamento horizontal entre bolinha e texto */
+  display: flex;
+  align-items: flex-start; 
+  margin-bottom: 20px; 
+  gap: 20px; 
 }
 
 .circledics {
-    width: 50px; /* Tamanho fixo da bolinha */
-    height: 50px;
-    background-color: #7399CB; /* Cor da bolinha */
-    border-radius: 50%; /* Bolinha */
-    flex-shrink: 0; /* Garante que a bolinha mantenha o tamanho */
+  width: 50px; 
+  height: 50px;
+  background-color: #7399CB; 
+  border-radius: 50%; 
+  flex-shrink: 0; 
 }
 
 .dicas-lista li p {
-    margin: 0; /* Remove o espaço extra ao redor do texto */
-    line-height: 1.5; /* Melhor legibilidade para textos longos */
-    color: #fff; /* Cor do texto */
-    text-align: justify; /* Justifica o texto para um layout mais uniforme */
-    text-indent: 0; /* Remove o recuo de parágrafo */
-}
-
-.dicas-lista li {
-    display: grid; /* Usando grid para alocar elementos */
-    grid-template-columns: 50px 1fr; /* Define colunas: bolinha e texto */
-    gap: 20px; /* Espaço entre bolinha e texto */
+  margin: 0; 
+  margin-right: 3cm; 
+  line-height: 1.5; 
+  text-align: justify; 
 }
