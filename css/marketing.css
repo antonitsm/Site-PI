@@ -2,8 +2,7 @@
     width: 100%;
     color: white;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center; 
 }
 .divzona_mark{
