@@ -1,4 +1,6 @@
-
+#dicas{
+  padding-right: 10%; 
+}
 
 .dicas-lista {
   list-style-type: none; 
