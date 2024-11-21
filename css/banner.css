@@ -1,6 +1,5 @@
 #banner {
-width: 100%; color: black;
-/*gradiente tamanho sombra*/
+width: 100%; color: white;
 display: flex;
 flex-direction: row;
 justify-content: center;
