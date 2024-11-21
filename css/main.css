@@ -2,7 +2,7 @@ body {
   font-family: 'JetBrains Mono', monospace;/*nossa fonte*/
   background: linear-gradient(0deg, #1252A6 0%, #FFFFFF 10%, #B5C9E3 45%, #B5C9E3 55%, #FFFFFF 90%, #1252A6 100%);
   text-align: center;/*texto no meio como base(muda ai sla)*/
-  padding: -15px;
+  margin: 0;
 }
 header {
   width: 100%; /*comprimento da tela*/
