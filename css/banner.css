@@ -24,8 +24,10 @@ height: 50rem;
     display: flex;
     justify-content: right;
     height: 100%;
+    padding: 0;
 }
 #imagem_banner img{
-    width: 100%;
+    width: 90%;
+    margin: 0; 
 }
     
