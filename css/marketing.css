@@ -2,8 +2,9 @@
     width: 100%;
     color: white;
     display: flex;
-    flex-direction: column; /* Adiciona coluna para os elementos */
-    align-items: center; /* Centraliza horizontalmente */
+    flex-direction: row;
+    align-items: center; 
+    flex-wrap: wrap;
 }
 #img_mark{
     width: 33%;
