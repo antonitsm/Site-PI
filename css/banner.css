@@ -17,7 +17,7 @@ align-items: center;
     width: 60%
 }
 #imagem_banner{
-    width: 30%;
+    width: 39%;
 }
 #imagem_banner >{
     object-fit: contain;
