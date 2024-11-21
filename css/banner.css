@@ -14,11 +14,10 @@ align-items: center;
 {
     align-items: center;
     text-align: center;
-    width: 66%
+    width: 60%
 }
 #imagem_banner{
-    width: 33%;
-    margin-left:0.9%
+    width: 30%;
 }
 #imagem_banner >{
     object-fit: contain;
