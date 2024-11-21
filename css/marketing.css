@@ -6,7 +6,9 @@
     flex-wrap: wrap;
     align-items: center; 
 }
-
+.divzona_mark{
+    width: 100%
+}
 .img_mark{
     width: 33%;
 }
