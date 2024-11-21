@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Esconde qualquer excesso horizontal */
+    overflow-x: hidden;
 }
 body {
   font-family: 'JetBrains Mono', monospace;/*nossa fonte*/
