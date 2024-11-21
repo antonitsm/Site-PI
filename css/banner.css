@@ -1,5 +1,5 @@
 #banner {
-height: 180dvh; width: 100%; color: white;
+width: 100%; color: white;
 /*gradiente tamanho sombra*/
 display: flex;
 flex-direction: row;
