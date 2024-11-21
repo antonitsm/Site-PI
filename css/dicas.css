@@ -1,19 +1,19 @@
 #dicas{
-  padding: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  display: column;
 }
-
 .dicas-lista {
   list-style-type: none; 
   padding: 0;
 }
-
 .dicas-lista li {
   display: flex;
   align-items: flex-start; 
   margin-bottom: 20px; 
   gap: 20px; 
 }
-
 .circledics {
   width: 3rem; 
   height: 3rem;
@@ -21,10 +21,8 @@
   border-radius: 50%; 
   flex-shrink: 0; 
 }
-
 .dicas-lista li p {
   margin: 0; 
-  margin-right: 1.5rem;
   line-height: 1.5; 
   text-align: justify; 
 }
