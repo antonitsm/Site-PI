@@ -18,8 +18,8 @@ align-items: center;
     width: 66%
 }
 #imagem_banner{
-    width: 33%
-    margin-left:0.5%
+    width: 33%;
+    margin-left:0.9%
 }
 #imagem_banner >{
     object-fit: contain;
