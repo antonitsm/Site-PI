@@ -13,9 +13,9 @@ align-items: center;
 }
 #texto_banner
 {
-    text-align: center;
+    width: 66%
 }
 #imagem_banner{
-height: 80rem;
+width: 33%
 margin-left: auto;
 }
