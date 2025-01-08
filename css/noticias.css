@@ -37,3 +37,11 @@ left: 10px;
 .carousel .next {
 right: 10px;
 }
+
+@media (max-width: 1023px) {
+    .carousel {
+        max-width: 90%;
+        aspect-ratio: 16 / 9;
+        height: auto;
+    }
+  }

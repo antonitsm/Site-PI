@@ -11,7 +11,7 @@ body {
   color: black;
   font-style: normal;
   font-weight: 200;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 header {
   width: 100%; /*comprimento da tela*/
@@ -105,4 +105,69 @@ footer .footer-image {
   height: 150px;
   object-fit: contain;
   margin: 0 50px;
+}
+
+#main-button {
+  display: none;
+}
+
+.responsive-menu {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.responsive-menu a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+.responsive-menu a:last-child {
+  border-bottom: none;
+}
+
+.responsive-menu a:hover {
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+@media (max-width: 1023px) {
+  body {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .main-menu {
+    display: none;
+  }
+  .main-logo {
+    margin: auto;
+  }
+  #main-button {
+    display: block;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .footer-menu {
+    display: none;
+  }
+  footer .footer-image {
+    width: auto;
+    height: 75px;
+  }
+  .responsive-menu {
+    display: none;
+  }
 }

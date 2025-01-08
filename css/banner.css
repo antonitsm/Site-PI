@@ -31,3 +31,30 @@ height: 50rem;
     margin: 0; 
 }
     
+@media (max-width: 1023px) {
+    #banner {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #texto_banner {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 2.5rem;
+    }
+
+    #imagem_banner {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        height: auto;
+    }
+
+    #imagem_banner img {
+        width: auto;
+        max-width: 90%;
+        height: auto;
+        margin: 0;
+    }
+}

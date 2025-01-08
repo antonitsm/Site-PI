@@ -22,8 +22,9 @@
 <body>
     <header>
         <div class="container">
-            <img src="img/logo2.png" alt="Logo" style="max-height: 80px;">
-            <nav>
+            <div class="botao-azul-basico" onclick="toggleResponsiveMenu()" id="main-button">MENU</div>
+            <img src="img/logo2.png" alt="Logo" style="max-height: 80px;" class="main-logo">
+            <nav class="main-menu">
                 <a href="#introducao">INTRODUÇÃO</a>
                 <a>|</a>
                 <a href="#marketing">MARKETING</a>
@@ -36,6 +37,13 @@
             </nav>
         </div>
     </header>
+    <nav class="responsive-menu">
+        <a href="#introducao">INTRODUÇÃO</a>
+        <a href="#marketing">MARKETING</a>
+        <a href="#influencers">INFLUENCERS</a>
+        <a href="#dicas">DICAS</a>
+        <a href="#noticias">NOTÍCIAS</a>
+    </nav>
     <section id="banner">
         <div id="texto_banner">
             <h1>TUDO SOBRE A<br> INFLUÊNCIA DAS<br>REDES!</h1>
@@ -69,14 +77,14 @@
                 <img src="img/marketing_direto.jpg" alt="combo">
             </div>
             <div class="txt_mark">
-                <h5>Marketing Direto</h5>
+                <h3>Marketing Direto</h3>
                 <p>É aquele marketing como o nome diz, direto, ele é tão importante quanto o indireto mas ele normalmente mostra o produto e fala dele diretamente sem enrolação ou discurso.
 </p>
             </div>
         </div>
         <div class="divzona_mark">
             <div class="txt_mark">
-                <h5>Marketing Indireto</h5>
+                <h3>Marketing Indireto</h3>
                 <p>É quando um produto que te é mostrado sem se pronunciar a respeito dele, como em uma cena de filme onde um personagem está bebendo uma marca de refrigerante específica e o rótulo sempre fica apontado para a câmera mas nunca é falado no produto fazendo com que você queira ir atrás do produto para conhecer ele, outro exemplo é que vilões em filmes ou séries não podem usar produtos da apple para a marca não se relacionar com perversidade.
 </p>
             </div>
@@ -107,7 +115,7 @@
         </div>
     </section>
     <section id="dicas">
-        <h4>DICAS</h4>
+        <h2>DICAS</h2>
         <ul class="dicas-lista">
             <li>
                 <div class="circledics"></div>
@@ -135,7 +143,7 @@
         </ul>
     </section>
     <section id="noticias">
-        <h4>NOTÍCIAS</h4>
+        <h2>NOTÍCIAS</h2>
         <div class="carousel">
             <img src="img/noticias-carrossel-1.jpg" alt="Image 1" class="active">
             <img src="img/noticias-carrossel-2.jpg" alt="Image 2">
@@ -151,7 +159,7 @@
     <footer>
         <div class="footer-content">
             <img src="img/logo1.png" alt="Left Image" class="footer-image">
-            <nav>
+            <nav class="footer-menu">
                 <a href="#introducao">INTRODUÇÃO</a>
                 |
                 <a href="#marketing">MARKETING</a>

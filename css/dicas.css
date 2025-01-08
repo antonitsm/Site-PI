@@ -3,7 +3,8 @@
   align-content: center;
   justify-content: center;
   flex-direction: column;
-  padding: 2%
+  max-width: 90%;
+  margin: auto;
 }
 .dicas-lista {
   list-style-type: none; 

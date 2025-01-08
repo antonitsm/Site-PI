@@ -8,3 +8,13 @@
 #introducao .info-card {
     width: 40%;
 }
+
+@media (max-width: 1023px) {
+    #introducao .botao-azul-basico {
+        width: 70%;
+        padding: 0.1rem;
+    }
+    #introducao .info-card {
+        width: 70%;
+    }
+  }
