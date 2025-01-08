@@ -15,13 +15,14 @@ body {
 }
 header {
   width: 100%; /*comprimento da tela*/
-  padding: 20px 0;/*espaçamento interno*/
+  padding: 10px 0;/*espaçamento interno*/
   max-height: 20%;/*tamanho maximo*/
-  position: sticky;/*gruda no topo da pagina(não vai ate o final n sei pq*/
+  position: fixed;/*gruda no topo da pagina(não vai ate o final n sei pq*/
   top: 0;
   left: 0;
   z-index: 1000;
   margin: 0;
+  background: rgba(0, 0, 0, 0.282);
 }
 header .container {
   width: 100%; 
@@ -114,12 +115,14 @@ footer .footer-image {
 .responsive-menu {
   display: none;
   flex-direction: column;
-  width: 200px;
+  width: 50%;
   background-color: #f9f9f9;
   padding: 10px;
   border: 1px solid #ccc;
   margin: auto;
   border-radius: 10px;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 
 .responsive-menu a {
@@ -165,9 +168,14 @@ footer .footer-image {
   }
   footer .footer-image {
     width: auto;
-    height: 75px;
+    height: 80px;
+  }
+  .footer-image:nth-of-type(2) {
+    height: 55px;
   }
   .responsive-menu {
     display: none;
+    position: fixed;
+    
   }
 }

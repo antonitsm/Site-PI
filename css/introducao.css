@@ -1,6 +1,5 @@
 #introducao .botao-azul-basico {
     width: 40%;
-    padding: 0.1rem;
 }
 #introducao .botao-azul-basico > {
     padding: 0;
@@ -12,7 +11,6 @@
 @media (max-width: 1023px) {
     #introducao .botao-azul-basico {
         width: 70%;
-        padding: 0.1rem;
     }
     #introducao .info-card {
         width: 70%;
