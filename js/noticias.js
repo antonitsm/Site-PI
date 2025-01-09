@@ -1,7 +1,7 @@
 let currentImageIndex = 0;
 const images = document.querySelectorAll('.carousel img');
 const totalImages = images.length;
-const autoAdvanceTime = 3000;
+const autoAdvanceTime = 10000;
 
 function showImage(index) {
     images.forEach((img, i) => {
