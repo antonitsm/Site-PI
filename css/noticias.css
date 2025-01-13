@@ -24,10 +24,10 @@ transform: translateY(-50%);
 background-color: rgba(0, 0, 0, 0.5);
 color: white;
 border: none;
-padding: 10px;
+padding: 20px;
 cursor: pointer;
-font-size: 18px;
-border-radius: 50%;
+font-size: 20px;
+border-radius: 20%;
 }
 
 .carousel .prev {
