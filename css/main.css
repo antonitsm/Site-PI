@@ -153,12 +153,6 @@ footer .footer-image {
   }
 }
 
-@media (max-width: 1024px) {
-  body {
-    font-size: 28px;
-  }
-}
-
 @media (max-width: 1280px) {
   .main-menu {
     display: none;
